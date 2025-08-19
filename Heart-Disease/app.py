@@ -76,7 +76,7 @@ def main():
     # Right column: Display an image
     with right_col:
         st.subheader("Stay Healthy!")
-        image = Image.open("heart_image.jpg")  # Replace with your image path
+        image = Image.open("/workspaces/ML-Projects/Heart-Disease/heart_image.jpg")  # Replace with your image path
         st.image(image, caption="Heart Health Awareness", use_container_width=True)
 
 # Entry point for the Streamlit app
